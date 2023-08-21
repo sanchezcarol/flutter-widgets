@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_04_app/presentation/screens/home_screen.dart';
 
 import 'config/app_theme.dart';
 
@@ -16,9 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: AppTheme(selectedColor:2).theme(),
-      home: const Scaffold(
-        body: Center(),
-      )
+      home: const HomeScreen()
     );
   }
 }
