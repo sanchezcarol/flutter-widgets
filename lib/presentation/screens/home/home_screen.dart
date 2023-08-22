@@ -50,7 +50,7 @@ class _CustomListTitle extends StatelessWidget {
       trailing: Icon(Icons.arrow_forward_ios, color: colors.primary),
       onTap: () {
         // context.pushNamed(CardsScreen.name)
-        context.go(menuItem.link);
+        context.push(menuItem.link);
       },
     );
   }
