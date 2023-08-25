@@ -55,4 +55,10 @@ const menuItems = <MenuItems>[
     link: '/uicontrols', 
     icon: Icons.control_camera_outlined
   ),
+   MenuItems(
+    title: 'Tutorial',
+    subtitle: 'Introducción a la aplicación', 
+    link: '/tutorial', 
+    icon: Icons.accessibility_new_outlined
+  ),
 ];
