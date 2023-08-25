@@ -55,10 +55,16 @@ const menuItems = <MenuItems>[
     link: '/uicontrols', 
     icon: Icons.control_camera_outlined
   ),
-   MenuItems(
+  MenuItems(
     title: 'Tutorial',
     subtitle: 'Introducción a la aplicación', 
     link: '/tutorial', 
     icon: Icons.accessibility_new_outlined
+  ),
+  MenuItems(
+    title: 'Infinite scroll',
+    subtitle: 'Listas infinitas y pull to refresh', 
+    link: '/infinitescroll', 
+    icon: Icons.list_rounded
   ),
 ];
