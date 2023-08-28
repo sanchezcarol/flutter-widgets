@@ -15,7 +15,7 @@ class AppTheme {
 
   final int selectedColor;
   final bool isDarkMode;
-  AppTheme( {this.selectedColor=0, this.isDarkMode = false})
+  AppTheme({this.selectedColor = 0, this.isDarkMode = false})
     :assert(selectedColor>=0 && selectedColor<=colorThemes.length -1, 
     'Color must be between 0 and ${colorThemes.length}');
 
@@ -28,4 +28,6 @@ class AppTheme {
       )
     );
 
+  AppTheme copyWith( {int? selectedColor,bool? isDarkMode}) => 
+    AppTheme(selectedColor: selectedColor ?? this.selectedColor, isDarkMode: isDarkMode ?? this.isDarkMode);
 }
